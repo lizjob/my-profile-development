@@ -1,0 +1,245 @@
+/* TREE HOUSE INSPIRED ARCHITECTURAL CSS STYLE WITH MERGED BACKGROUND */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(252, 248, 243, 0.95), rgba(221, 211, 200, 0.9)), url('b217656e-7b02-493b-acae-c1e7e4deb82d.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  gap: 2rem;
+  border-bottom: 2px solid #c7beb4;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3b2e24;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #7f5f4c;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #4b3d33;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4rem 8%;
+  background: linear-gradient(to bottom, rgba(247, 243, 239, 0.85), rgba(229, 221, 213, 0.9));
+  border-bottom: 2px solid #c7beb4;
+  backdrop-filter: blur(2px);
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  color: #3b2e24;
+  text-transform: uppercase;
+  border-bottom: 3px solid #9b7e68;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #5a4b42;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.hero-buttons .btn {
+  padding: 0.8rem 2rem;
+  background-color: #7f5f4c;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.hero-buttons .btn:hover {
+  background-color: #3e2f26;
+}
+
+.hero-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid #d8c5b4;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding: 4rem 8%;
+  border-bottom: 1px solid #c7beb4;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(1px);
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #3d3228;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 1rem;
+  border-left: 4px solid #a0896f;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #564a42;
+  max-width: 800px;
+  margin-bottom: 1rem;
+}
+
+.resume-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.resume-item {
+  background-color: #f8f4ef;
+  padding: 1.5rem;
+  border-left: 5px solid #9b7e68;
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.resume-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.1);
+}
+
+.resume-text h3 {
+  font-size: 1.1rem;
+  color: #2f251d;
+}
+
+.resume-text p {
+  font-size: 0.95rem;
+  color: #5f5146;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.gallery-item {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 12px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #9b7e68;
+}
+
+.caption h3 {
+  font-size: 1rem;
+  padding: 0.8rem 1rem 0 1rem;
+  color: #32281f;
+}
+
+.caption p {
+  font-size: 0.85rem;
+  padding: 0 1rem 1rem 1rem;
+  color: #6b5d52;
+}
+
+.skills-columns {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.skills-columns div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.skills-columns ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-columns li {
+  background-color: #e7dfd7;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border-left: 4px solid #7f5f4c;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.footer {
+  background: rgba(226, 219, 213, 0.85);
+  color: #4a4038;
+  text-align: center;
+  padding: 2rem 8%;
+  font-size: 0.85rem;
+  border-top: 1px solid #c1b5ab;
+  backdrop-filter: blur(2px);
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
